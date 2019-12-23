@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="anco" prefHeight="640.0" prefWidth="920.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="controller.RootController">
+   <children>
+      <ImageView fitHeight="640.0" fitWidth="920.0" layoutY="-1.0">
+         <image>
+            <Image url="@../../../../../Pictures/자바/5c0a49054b3b8.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="txtID" layoutX="705.0" layoutY="247.0" prefHeight="22.0" prefWidth="180.0" />
+      <Button fx:id="bthHi" layoutX="769.0" layoutY="339.0" mnemonicParsing="false" text="회원가입" />
+      <Button fx:id="btnLogin" layoutX="705.0" layoutY="339.0" mnemonicParsing="false" text="로그인" />
+      <Button fx:id="btnClose" layoutX="841.0" layoutY="339.0" mnemonicParsing="false" text="종료" />
+      <PasswordField fx:id="txtPassword" layoutX="705.0" layoutY="290.0" prefHeight="22.0" prefWidth="180.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="MovieInfoAnchroPane" prefHeight="595.0" prefWidth="947.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MovieInfoController">
+   <children>
+      <ImageView fitHeight="595.0" fitWidth="947.0">
+         <image>
+            <Image url="@../../../../../Pictures/자바/27772148-검은-색-바탕-화면-배경.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="PosterImage" fitHeight="454.0" fitWidth="343.0" layoutX="47.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Pictures/자바/다운로드%20(2).jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="418.0" layoutY="122.0" text="줄거리" textFill="WHITE" />
+      <Button fx:id="btnMovieCarMove" layoutX="859.0" layoutY="524.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="74.0" text="예매" />
+      <Button fx:id="btnMainMove" layoutX="21.0" layoutY="546.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="74.0" text="메인화면" />
+      <TextArea fx:id="julgery" layoutX="410.0" layoutY="150.0" prefHeight="328.0" prefWidth="477.0" />
+   </children>
+</AnchorPane>

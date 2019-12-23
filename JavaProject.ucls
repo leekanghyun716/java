@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.14" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="model.HiNewVO" project="JAVA PROJECT ONE" 
+    file="/JAVA PROJECT ONE/src/model/HiNewVO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="235" y="211"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="model.MovieENG" project="JAVA PROJECT ONE" 
+    file="/JAVA PROJECT ONE/src/model/MovieENG.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="502" y="36"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="model.MovieUpVO" project="JAVA PROJECT ONE" 
+    file="/JAVA PROJECT ONE/src/model/MovieUpVO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="748" y="145"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="model.MovieViewVo" project="JAVA PROJECT ONE" 
+    file="/JAVA PROJECT ONE/src/model/MovieViewVo.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="826" y="581"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="model.UserBooks" project="JAVA PROJECT ONE" 
+    file="/JAVA PROJECT ONE/src/model/UserBooks.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="533" y="556"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="model.UserChartVO" project="JAVA PROJECT ONE" 
+    file="/JAVA PROJECT ONE/src/model/UserChartVO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="504" y="257"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
